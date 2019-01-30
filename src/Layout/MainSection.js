@@ -5,7 +5,12 @@ import Map from "../Map/Map";
 const MainSection = () => (
     <>
         <Route path="/car/:carId/rides/" exact component={Map} />
-        <Route path="/cars" exact component={() => <>Pick the car to display additional data</>} />
+        <Route path="/cars" exact component={() => <div style={{
+            display: "flex",
+            justifyContent: "center",
+            alignItems: "center",
+            height: "100%"
+        }}>Pick the car to display additional data</div>} />
     </>
 );
 
