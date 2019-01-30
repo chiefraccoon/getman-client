@@ -1,0 +1,27 @@
+.rides-list{
+    overflow: auto;
+    max-height: 100vh;
+    background: #efefef;
+}
+.rides-list::-webkit-scrollbar {
+    width: 5px;
+}
+
+.rides-list::-webkit-scrollbar-track {
+    background: #ddd;
+}
+
+.rides-list::-webkit-scrollbar-thumb {
+    background: #666;
+}
+.ride-item{
+    padding: 0.6em;
+    cursor: pointer;
+}
+
+.ride-item:hover{
+    background: #ddd;
+}
+.ride-item-active, .ride-item-active:hover{
+    background: #ddd;
+}

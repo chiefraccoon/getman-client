@@ -1,0 +1,16 @@
+.cars-list{
+    overflow: auto;
+    max-height: 100vh;
+    background: #eee;
+}
+.cars-list::-webkit-scrollbar {
+    width: 5px;
+}
+
+.cars-list::-webkit-scrollbar-track {
+    background: #ddd;
+}
+
+.cars-list::-webkit-scrollbar-thumb {
+    background: #666;
+}
